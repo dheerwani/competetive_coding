@@ -7,7 +7,7 @@ void solve(char *input,char *output,int i,int j)
 {
 	if(input[i]=='\0')
 	{	
-		output[j] == '\0';
+		output[j] = '\0';
 		cout<<output<<endl;
 		return;
 	}
